@@ -3,7 +3,9 @@ Tidy Data Project
 
 I this project a folder was download in order to create a tidy data set out from it 
 
-The way it was done was creating tables from all text files and then starting to join them by columns in the case of all the types of measures and by rows at the time of putting together the train and test set 
+The way it was done was creating tables from all text files and then starting to join them by columns in the case of all the types of measures and by rows at the time of putting together the train and test set. 
+
+The identifier from the activities was assigned to the activity_id in one of the sets to being able of properly name them. 
 
 once this was done a data extract with standard deviation and means was created
 
