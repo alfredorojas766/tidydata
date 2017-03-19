@@ -1,0 +1,55 @@
+activity_name : name of activity and identifier
+                1 WALKING
+                2 WALKING_UPSTAIRS
+                3 WALKING_DOWNSTAIRS
+                4 SITTING
+                5 STANDING
+                6 LAYING
+
+
+subject_id : number of subjects in the test. goes from 1 to 30
+    
+Descriptive variables created 
+
+time and frequency differentiated
+XYZ variables, one ofr each axis 
+mean and std defined in the name 
+magnitude vectors defined 
+
+"activity_id"                                
+"activity_name"                             
+"subject_id"                                
+"time_BodyAcc_mean_[XYZ]"                                             
+"time_BodyAcc_std_[XYZ]"                                      
+"time_GravityAcc_mean_[XYZ]"                      
+"time_GravityAcc_std_[XYZ]"               
+"time_BodyAccJerk_mean_[XYZ]"                             
+"time_BodyAccJerk_std_[XYZ]"                                  
+"time_BodyGyro_mean_[XYZ]"                               
+"time_BodyGyro_std_[XYZ]"                                   
+"time_BodyGyroJerk_mean_[XYZ]"                           
+"time_BodyGyroJerk_std_[XYZ]"                      
+"time_BodyAcc_magnitude__mean"               
+"time_BodyAcc_magnitude__std"                
+"time_GravityAcc_magnitude__mean"           
+"time_GravityAcc_magnitude__std"             
+"time_BodyAccJerk_magnitude__mean"           
+"time_BodyAccJerk_magnitude__std"           
+"time_BodyGyro_magnitude__mean"              
+"time_BodyGyro_magnitude__std"               
+"time_BodyGyroJerk_magnitude__mean"         
+"time_BodyGyroJerk_magnitude__std"           
+"frequency_BodyAcc_mean_[XYZ]"                   
+"frequency_BodyAcc_std_[XYZ]"                  
+"frequency_BodyAccJerk_mean_[XYZ]"            
+"frequency_BodyAccJerk_std_[XYZ]"             
+"frequency_BodyGyro_mean_[XYZ]"             
+"frequency_BodyGyro_std_[XYZ]"       
+"frequency_BodyAcc_magnitude__mean"         
+"frequency_BodyAcc_magnitude__std"          
+"frequency_BodyBodyAccJerk_magnitude__mean" 
+"frequency_BodyBodyAccJerk_magnitude__std"  
+"frequency_BodyBodyGyro_magnitude__mean"    
+"frequency_BodyBodyGyro_magnitude__std"      
+"frequency_BodyBodyGyroJerk_magnitude__mean"
+"frequency_BodyBodyGyroJerk_magnitude__std"
