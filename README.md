@@ -7,11 +7,15 @@ The way it was done was creating tables from all text files and then starting to
 
 The identifier from the activities was assigned to the activity_id in one of the sets to being able of properly name them. 
 
-once this was done a data extract with standard deviation and means was created
+The features file was added as the column names of the time frequency variables
+
+Once this was done the columns that contained the means and std were selected
+
+The variable names were treated in order to be descriptive and understandable
 
 in addition a final tidy data set is the output of the script in which grouped data by subject and type of activity with their correspondent mean values can was obtained.
 
-The variable names were created in a way in which the name of the measure goes first and the the last part will be the correspondent number 
+The variable names were created in a way in which the name of the measure goes first and the the last part will be the correspondent type of measure and axis or magnitude
 
 activity_id : activities identifier goes from 1 to 6 
 
@@ -25,23 +29,48 @@ activity_name : name of activity and identifier
 
 
 subject_id : number of subjects in the test. goes from 1 to 30
+    
+Descriptive variables created 
 
-time_freq_[1:516] : 516 and columns of data corresponding to time frequency values 
+time and frequency differentiated
+XYZ variables, one ofr each axis 
+mean and std defined in the name 
+magnitude vectors defined 
 
-body_acc_x_[test,train]_[1:128] : 128 measures in each set (test and train) coming from measures in the x axis of the accelerometer
-
-body_acc_y_[test,train]_[1:128] : 128 measures in each set (test and train) coming from measures in the y axis of the accelerometer
-
-body_acc_z_[test,train]_[1:128] : 128 measures in each set (test and train) coming from measures in the z axis of the accelerometer
-
-body_gyro_x_[test,train]_[1:128] : 128 measures in each set (test and train) coming from measures in the x axis of the gyroscope
-
-body_gyro_y_[test,train]_[1:128] : 128 measures in each set (test and train) coming from measures in the y axis of the gyroscope
-
-body_gyro_z_[test,train]_[1:128] : 128 measures in each set (test and train) coming from measures in the z axis of the gyroscope
-
-total_acc_x_[test,train]_[1:128] : 128 measures in each set (test and train) coming from measures in the x axis of the total acceleration
-
-total_acc_y_[test,train]_[1:128] : 128 measures in each set (test and train) coming from measures in the y axis of the total acceleration
-
-total_acc_z_[test,train]_[1:128] : 128 measures in each set (test and train) coming from measures in the z axis of the total acceleration
+"activity_id"                                
+"activity_name"                             
+"subject_id"                                
+"time_BodyAcc_mean_[XYZ]"                                             
+"time_BodyAcc_std_[XYZ]"                                      
+"time_GravityAcc_mean_[XYZ]"                      
+"time_GravityAcc_std_[XYZ]"               
+"time_BodyAccJerk_mean_[XYZ]"                             
+"time_BodyAccJerk_std_[XYZ]"                                  
+"time_BodyGyro_mean_[XYZ]"                               
+"time_BodyGyro_std_[XYZ]"                                   
+"time_BodyGyroJerk_mean_[XYZ]"                           
+"time_BodyGyroJerk_std_[XYZ]"                      
+"time_BodyAcc_magnitude__mean"               
+"time_BodyAcc_magnitude__std"                
+"time_GravityAcc_magnitude__mean"           
+"time_GravityAcc_magnitude__std"             
+"time_BodyAccJerk_magnitude__mean"           
+"time_BodyAccJerk_magnitude__std"           
+"time_BodyGyro_magnitude__mean"              
+"time_BodyGyro_magnitude__std"               
+"time_BodyGyroJerk_magnitude__mean"         
+"time_BodyGyroJerk_magnitude__std"           
+"frequency_BodyAcc_mean_[XYZ]"                   
+"frequency_BodyAcc_std_[XYZ]"                  
+"frequency_BodyAccJerk_mean_[XYZ]"            
+"frequency_BodyAccJerk_std_[XYZ]"             
+"frequency_BodyGyro_mean_[XYZ]"             
+"frequency_BodyGyro_std_[XYZ]"       
+"frequency_BodyAcc_magnitude__mean"         
+"frequency_BodyAcc_magnitude__std"          
+"frequency_BodyBodyAccJerk_magnitude__mean" 
+"frequency_BodyBodyAccJerk_magnitude__std"  
+"frequency_BodyBodyGyro_magnitude__mean"    
+"frequency_BodyBodyGyro_magnitude__std"      
+"frequency_BodyBodyGyroJerk_magnitude__mean"
+"frequency_BodyBodyGyroJerk_magnitude__std"
